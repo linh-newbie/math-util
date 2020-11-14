@@ -5,7 +5,7 @@
  */
 package math.util;
 
-import linh.util.MathUtillity;
+import static linh.util.MathUtillity.getFactorial;
 
 /**
  *
@@ -20,12 +20,12 @@ public class MathUtil {
         //Ta test thử hàm của ta
         //Dung mắt để so sánh kết quả thực tế khi chạy và kết quả mong đợi
         long expected=120;// ta mong nhận 120 nếu gọi hàm 5!
-        long actual=MathUtillity.getFactorial(5);
+        long actual=getFactorial(5);
         System.out.println("5!: Expected: "+expected + "; Actual: "+actual);   
-        System.out.println("6!: "+MathUtillity.getFactorial(6));
-        System.out.println("0!: "+MathUtillity.getFactorial(0));
-        System.out.println("-1!: "+MathUtillity.getFactorial(-1));
-        //System.out.println("50!: "+MathUtillity.getFactorial(50));
+        System.out.println("6!: "+getFactorial(6));
+        System.out.println("0!: "+getFactorial(0));
+        System.out.println("-1!: "+getFactorial(-1));
+        //System.out.println("50!: "getFactorial(50));
     }
     
 }
