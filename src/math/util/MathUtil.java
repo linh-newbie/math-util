@@ -24,7 +24,9 @@ public class MathUtil {
         System.out.println("5!: Expected: "+expected + "; Actual: "+actual);   
         System.out.println("6!: "+getFactorial(6));
         System.out.println("0!: "+getFactorial(0));
-        //System.out.println("-1!: "+getFactorial(-1));
+        System.out.println("-1!: "+getFactorial(-1));
+        System.out.println("Goodbye and good lunk to you all in the final exam");
+        System.out.println("Hope that you all will get the GREEN ICONS");
         //System.out.println("50!: "getFactorial(50));
         
         //Muốn kết luận hàm mình ngon, thì ta phải nhìn bằng mắt kết quả chạy của hàm 
